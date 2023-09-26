@@ -66,6 +66,20 @@
         ]
       },
       "path": "~/glaive"
+    },
+    {
+      "name": "Awdawd",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "awdawd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balls/item/AwdawdItem.java",
+          "src/main/resources/assets/balls/models/item/awdawd.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -84,7 +98,8 @@
       "subtitles.hentai": "",
       "item.balls.emerald_hammer": "Emerald Great Hammer",
       "item_group.balls.new_weapons": "New Weapons",
-      "item.balls.glaivetool": "Diamond Dual Sided Glaive"
+      "item.balls.glaivetool": "Diamond Dual Sided Glaive",
+      "item.balls.awdawd": "Awdawd"
     }
   },
   "foldersRoot": {
