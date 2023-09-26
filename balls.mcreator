@@ -1,0 +1,117 @@
+{
+  "mod_elements": [
+    {
+      "name": "Emeralhammerrecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeralhammerrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/balls/recipes/emeralhammerrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldhammerweapon",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balls/item/EmeraldhammerweaponItem.java",
+          "src/main/resources/assets/balls/models/item/emerald_hammer.json"
+        ]
+      }
+    },
+    {
+      "name": "NewWeapons",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_weapons",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Glaivetool",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glaivetool",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/balls/models/item/glaivetool.json",
+          "src/main/java/net/mcreator/balls/item/GlaivetoolItem.java"
+        ]
+      },
+      "path": "~/glaive"
+    },
+    {
+      "name": "Diamondglaiverecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondglaiverecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/balls/recipes/diamondglaiverecipe.json"
+        ]
+      },
+      "path": "~/glaive"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "hentai",
+      "files": [
+        "hentai-_feat.-jdeez_"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.hentai": "",
+      "item.balls.emerald_hammer": "Emerald Great Hammer",
+      "item_group.balls.new_weapons": "New Weapons",
+      "item.balls.glaivetool": "Diamond Dual Sided Glaive"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "glaive",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "balls",
+    "modName": "balls",
+    "version": "1.0.0",
+    "author": "ethan, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.balls",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
